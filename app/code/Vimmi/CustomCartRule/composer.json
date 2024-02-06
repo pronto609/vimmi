@@ -1,0 +1,23 @@
+{
+    "name": "vimmi/custom-cart-rule",
+    "description": "N/A",
+    "require": {
+        "php": "~7.4.0||~8.1.0"
+    },
+    "type": "magento2-module",
+    "version": "0.0.1",
+    "license": [
+        "proprietary"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Vimmi\\CustomCartRule\\": ""
+        }
+    }
+}
+
+
+
